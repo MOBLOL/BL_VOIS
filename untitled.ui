@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>994</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="Phone_app" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-2</y>
+      <width>999</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(33,36,43);</string>
+    </property>
+    <widget class="QWidget" name="Menu" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>171</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(33,36,43);</string>
+     </property>
+     <widget class="QPushButton" name="togle">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-3</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-image: url(images/icons/icon_menu.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	border: none;
+	border-left: 20px solid transparent;
+	background-color:  rgb(33,36,43);
+	text-align: left;
+	padding-left: 44px;
+	color: rgb(133, 146, 169);
+	background-size: cover;
+}
+
+QPushButton:hover{
+	background-color: rgb(40, 44, 52);
+}
+
+QPushButton:pressed {
+	background-color: rgb(189, 147, 249);
+}</string>
+      </property>
+      <property name="text">
+       <string>        MENU</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Home">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-image: url(images/icons/cil-house.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 200px 150px;
+	border: none;
+	border-left: 20px solid transparent;
+	background-color:  rgb(33,36,43);
+	text-align: left;
+	padding-left: 44px;
+	color: rgb(113, 126, 149);
+	background-size: cover;
+}
+
+QPushButton:hover{
+	background-color: rgb(40, 44, 52);
+}
+
+QPushButton:pressed {
+	background-color: rgb(189, 147, 249);
+}</string>
+      </property>
+      <property name="text">
+       <string>      Home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Commands">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-image: url(images/icons/cil-description.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 200px 150px;
+	border: none;
+	border-left: 20px solid transparent;
+	background-color:  rgb(33,36,43);
+	text-align: left;
+	padding-left: 44px;
+	color: rgb(113, 126, 149);
+	background-size: cover;
+}
+
+QPushButton:hover{
+	background-color: rgb(40, 44, 52);
+}
+
+QPushButton:pressed {
+	background-color: rgb(189, 147, 249);
+}</string>
+      </property>
+      <property name="text">
+       <string>      Comands</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Contacts">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>160</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-image: url(images/icons/cil-people.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 200px 150px;
+	border: none;
+	border-left: 20px solid transparent;
+	background-color:  rgb(33,36,43);
+	text-align: left;
+	padding-left: 44px;
+	color: rgb(113, 126, 149);
+}
+
+QPushButton:hover{
+	background-color: rgb(40, 44, 52);
+}
+
+QPushButton:pressed {
+	background-color: rgb(189, 147, 249);
+}</string>
+      </property>
+      <property name="text">
+       <string>      Contacts</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Save">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>480</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-image: url(images/icons/cil-save.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 200px 150px;
+	border: none;
+	border-left: 20px solid transparent;
+	background-color:  rgb(33,36,43);
+	text-align: left;
+	padding-left: 44px;
+	color: rgb(113, 126, 149);
+	background-size: cover;
+}
+
+QPushButton:hover{
+	background-color: rgb(40, 44, 52);
+}
+
+QPushButton:pressed {
+	background-color: rgb(189, 147, 249);
+}</string>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="creditsLabel">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>520</y>
+        <width>911</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(111, 111, 111);</string>
+      </property>
+      <property name="text">
+       <string>Vois Asist: Miky</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Head" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1001</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(33,36,43);
+border: none;</string>
+     </property>
+     <widget class="QLabel" name="Name_App">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>321</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(230, 230, 230);</string>
+      </property>
+      <property name="text">
+       <string>Everlasting summer - Vois Asistant</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Exit_Button">
+      <property name="geometry">
+       <rect>
+        <x>944</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-image: url('images/icons/icon_close.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-left: 1px solid transparent;
+	background-color:  rgb(33,36,43);
+	border-radius: 2px;
+}
+QPushButton:hover{
+	background-color: rgba(140, 140, 140, 50);
+	border-radius: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Icon_App">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-10</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(images/icons/slava_k.png);
+background-repeat: no-repeat;
+background-position: center;
+border: none;
+border: 20px solid transparent;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Close_Button">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-image: url('images/icons/icon_minimize.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-left: 1px solid transparent;
+	background-color:  rgb(33,36,43);
+	border-radius: 2px;
+}
+QPushButton:hover{
+	background-color: rgba(140, 140, 140, 50);
+	border-radius: 5px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Home_ikon" native="true">
+     <property name="geometry">
+      <rect>
+       <x>59</x>
+       <y>59</y>
+       <width>931</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(44,50,57);
+background-color: rgb(40, 44, 52);
+border: 2px solid;
+border-color: rgb(40,44,52);
+border-radius: 15px;
+</string>
+     </property>
+     <widget class="QPushButton" name="Start_Buton">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>140</y>
+        <width>301</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-image: url(images/icons/microphone (2).png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QPushButton:hover{
+	transform: scale(-1.2);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="VoisText">
+      <property name="geometry">
+       <rect>
+        <x>46</x>
+        <y>22</y>
+        <width>841</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(30,33,40);
+color: #e1e1e1;
+border: 2px solid;
+border-radius: 30px;
+border-color: rgb(23,26,23);</string>
+      </property>
+      <property name="text">
+       <string>Vois</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Start_Buton_2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>130</y>
+        <width>321</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+QPushButton{
+	border: 4px solid transparent;
+	border-color:  rgb(33,36,43);
+	border-radius: 15px;
+}
+
+QPushButton:hover{
+	transform: scale(1.2);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>340</y>
+        <width>191</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 4px solid transparent;
+border-color:rgb(33,36,43);
+border-radius: 15px;</string>
+      </property>
+      <widget class="QWidget" name="indikator_microphone" native="true">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>90</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(12, 190, 0);
+border-color: rgb(12, 190, 0);
+border-radius: 15px;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="microphone" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url('images/icons/microphone.png');
+background-repeat: no-repeat;
+background-position: center;
+border: none;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="wifi" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>20</y>
+         <width>71</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url('images/icons/wifi.png');
+background-repeat: no-repeat;
+background-position: center;
+border: none;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="indikator_wifi" native="true">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>90</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(12, 190, 0);
+border-color: rgb(12, 190, 0);
+border-radius: 15px;</string>
+       </property>
+      </widget>
+     </widget>
+     <zorder>VoisText</zorder>
+     <zorder>Start_Buton_2</zorder>
+     <zorder>Start_Buton</zorder>
+     <zorder>widget_6</zorder>
+    </widget>
+    <widget class="QWidget" name="Comands_icon" native="true">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>931</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(44,50,57);
+background-color: rgb(40, 44, 52);
+border: 2px solid;
+border-color: rgb(40,44,52);
+border-radius: 15px;
+</string>
+     </property>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>201</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+border: 3px solid;
+border-top: none;
+border color: rdb(120,120,120);
+</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>-1</x>
+         <y>9</y>
+         <width>201</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="VoisModLayout">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMinimumSize</enum>
+        </property>
+        <property name="leftMargin">
+         <number>10</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>10</number>
+        </property>
+        <property name="bottomMargin">
+         <number>200</number>
+        </property>
+        <item>
+         <widget class="QRadioButton" name="StandarPack">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Standart Pack</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="SecretPack">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Sekret Pack</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="StudioBandPack">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>StudioBand Pack</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>30</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(230, 230, 230);
+border: 3px solid;
+border-radius: 15px;</string>
+      </property>
+      <property name="text">
+       <string>Vois Mods</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>50</y>
+        <width>201</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+border: 3px solid;
+border-top: none;
+border color: rdb(120,120,120);
+</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>9</y>
+         <width>201</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="VoisPersonLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMinimumSize</enum>
+        </property>
+        <property name="leftMargin">
+         <number>10</number>
+        </property>
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <property name="rightMargin">
+         <number>10</number>
+        </property>
+        <property name="bottomMargin">
+         <number>5</number>
+        </property>
+        <item>
+         <widget class="QRadioButton" name="MikyVois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Miky</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ElectronikVois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Electronik</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ShurikVois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Shurik</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="ViollaVois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Violla</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="Olya_Vois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Olya</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="Olga_Vois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Olga</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="Alisa_Vois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Alisa</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="Slava_Vois">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(230, 230, 230);
+border: none;
+border: 2px solid;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string>Slava</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>30</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(230, 230, 230);
+border: 3px solid;
+border-radius: 15px;</string>
+      </property>
+      <property name="text">
+       <string>Vois Person</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>50</y>
+        <width>201</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 3px solid;
+border color: rdb(120,120,120);
+</string>
+      </property>
+      <widget class="QWidget" name="widget_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>161</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(230, 230, 230);
+border: none;
+</string>
+        </property>
+        <property name="text">
+         <string>Volume</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>61</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: none;</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>161</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(230, 230, 230);
+border: none;
+</string>
+        </property>
+        <property name="text">
+         <string>Speed</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QSlider" name="horizontalSlider_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>61</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: none;</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QRadioButton" name="ImWindows">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>250</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(230, 230, 230);</string>
+       </property>
+       <property name="text">
+        <string>Image Windows</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="ImWindows_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>300</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Black</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(230, 230, 230);</string>
+       </property>
+       <property name="text">
+        <string>Close Trei</string>
+       </property>
+      </widget>
+      <widget class="QScrollArea" name="scrollArea_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>135</width>
+          <height>35</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>30</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(230, 230, 230);
+border: 3px solid;
+border-radius: 15px;</string>
+      </property>
+      <property name="text">
+       <string>Settings</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <zorder>widget</zorder>
+     <zorder>widget_2</zorder>
+     <zorder>label_6</zorder>
+     <zorder>widget_3</zorder>
+     <zorder>label_5</zorder>
+     <zorder>label_9</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="C:/Users/User/Desktop/PyDracula-main/PyDracula-main/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
